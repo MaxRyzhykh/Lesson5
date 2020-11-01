@@ -1,8 +1,8 @@
-package com.company;
+package academy.belhard;
 
 public class Main {
 
     public static void main(String[] args) {
-        e
+
     }
 }
