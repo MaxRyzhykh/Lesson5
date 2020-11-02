@@ -7,7 +7,7 @@ public class User extends Person {
     public User(String em, String pa) {
         super(em, pa);
     }
-//    10-12 осталось
+
 
     public String getFullInfo(){
         System.out.println("Имя: " + Person.getFullName + "\n" + "E-mail: " + email);
