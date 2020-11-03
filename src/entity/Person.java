@@ -6,7 +6,7 @@ public class Person {
     protected String lastName ;
 
 
-    Person (String fn, String ln){
+    public Person (String fn, String ln){
         firstName = fn;
         lastName = ln;
     }
