@@ -1,8 +1,5 @@
 package academy.belhard;
 
-import entity.Person;
-import entity.User;
-
 public class Main {
 
     public static void main(String[] args) {
