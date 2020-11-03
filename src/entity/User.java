@@ -10,8 +10,7 @@ public class User extends Person {
 
 
     public String getFullInfo() {
-        String fullInfo = "Имя: " + getFullName() + "\n" + "E-mail: " + email;
-        return fullInfo;
+        return "Имя: " + super.getFullName() + "\n" + "E-mail: " + email;
     }
 
 

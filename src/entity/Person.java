@@ -12,8 +12,7 @@ public class Person {
     }
 
 
-    public  String getFullName(){
-        String fullName = firstName + " " + lastName;
-        return fullName;
+    public String getFullName(){
+        return firstName + " " + lastName;
     }
 }
