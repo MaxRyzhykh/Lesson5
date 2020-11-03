@@ -9,17 +9,17 @@ public class User extends Person {
     }
 
 
-    public String getFullInfo(){
-        System.out.println("Имя: " + Person.getFullName + "\n" + "E-mail: " + email);
-    //разве не надо создать объект класса person чтобы к нему обратиться?
+    public String getFullInfo() {
+        String fullInfo = "Имя: " + getFullName() + "\n" + "E-mail: " + email;
+        return fullInfo;
     }
 
 
-    public boolean isPasswordCorrect(String pd){
+    public boolean isPasswordCorrect(String pd) {
         if (pd.equals(password)) {
-            System.out.println("true");
+            return true;
         } else {
-            System.out.println("false");
+            return false;
         }
     }
 }
