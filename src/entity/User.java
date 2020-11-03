@@ -4,9 +4,9 @@ public class User extends Person {
     private String email;
     private String password;
 
-    public User(String fn,String lm, String em, String pa) {
+    public User(String fn,String ln, String em, String pa) {
         super.firstName = fn;
-        super.lastName = lm;
+        super.lastName = ln;
         this.email = em;
         this.password = pa;
     }
